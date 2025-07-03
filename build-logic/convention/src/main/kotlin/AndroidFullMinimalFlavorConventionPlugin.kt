@@ -26,11 +26,11 @@ class AndroidFullMinimalFlavorConventionPlugin : Plugin<Project> {
                 flavorDimensions.add("version")
                 productFlavors {
                     create("minimal") {
-                        applicationIdSuffix = ".minimal"
+                        applicationIdSuffix = "sait.minimal"
                         versionNameSuffix = "-minimal"
                     }
                     create("full") {
-                        applicationIdSuffix = ""
+                        applicationIdSuffix = "sait"
                         versionNameSuffix = "-full"
                     }
 
